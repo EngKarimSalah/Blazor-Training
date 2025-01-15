@@ -1,0 +1,259 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|c:\\users\\karim\\downloads\\entityframework\\dataaccessblazorserverside\\components\\pages\\confirmationmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|solutionrelative:components\\pages\\confirmationmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|c:\\users\\karim\\downloads\\entityframework\\dataaccessblazorserverside\\components\\pages\\deleteconfirmationdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|solutionrelative:components\\pages\\deleteconfirmationdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|c:\\users\\karim\\downloads\\entityframework\\dataaccessblazorserverside\\components\\pages\\editproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|solutionrelative:components\\pages\\editproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|c:\\users\\karim\\downloads\\entityframework\\dataaccessblazorserverside\\components\\pages\\addproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|solutionrelative:components\\pages\\addproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|c:\\users\\karim\\downloads\\entityframework\\dataaccessblazorserverside\\components\\pages\\productlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|solutionrelative:components\\pages\\productlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|c:\\users\\karim\\downloads\\entityframework\\dataaccessblazorserverside\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|c:\\users\\karim\\downloads\\entityframework\\dataaccessblazorserverside\\data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|solutionrelative:data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|c:\\users\\karim\\downloads\\entityframework\\dataaccessblazorserverside\\data\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|solutionrelative:data\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|c:\\users\\karim\\downloads\\entityframework\\dataaccessblazorserverside\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|c:\\users\\karim\\downloads\\entityframework\\dataaccessblazorserverside\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|c:\\users\\karim\\downloads\\entityframework\\dataaccessblazorserverside\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|c:\\users\\karim\\downloads\\entityframework\\dataaccessblazorserverside\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|solutionrelative:components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|c:\\users\\karim\\downloads\\entityframework\\dataaccessblazorserverside\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|c:\\users\\karim\\downloads\\entityframework\\dataaccessblazorserverside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69756A64-ACC4-4D61-9D9D-02F0A4682F76}|BlazorApp3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T21:06:39.404Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T22:40:26.764Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Routes.razor",
+              "RelativeToolTip": "Components\\Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T22:40:41.632Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T22:40:48.154Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T22:47:06.649Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T22:22:27.384Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Data\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Data\\Models\\Product.cs",
+              "RelativeToolTip": "Data\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:26:14.075Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Data\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Data\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T04:57:36.634Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T04:57:46.131Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductList.razor",
+              "DocumentMoniker": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Pages\\ProductList.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\ProductList.razor",
+              "ToolTip": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Pages\\ProductList.razor",
+              "RelativeToolTip": "Components\\Pages\\ProductList.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T21:08:43.392Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddProduct.razor",
+              "DocumentMoniker": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Pages\\AddProduct.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\AddProduct.razor",
+              "ToolTip": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Pages\\AddProduct.razor",
+              "RelativeToolTip": "Components\\Pages\\AddProduct.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T22:38:02.454Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditProduct.razor",
+              "DocumentMoniker": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Pages\\EditProduct.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\EditProduct.razor",
+              "ToolTip": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Pages\\EditProduct.razor",
+              "RelativeToolTip": "Components\\Pages\\EditProduct.razor",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T23:03:29.091Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteConfirmationDialog.razor",
+              "DocumentMoniker": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Pages\\DeleteConfirmationDialog.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\DeleteConfirmationDialog.razor",
+              "ToolTip": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Pages\\DeleteConfirmationDialog.razor",
+              "RelativeToolTip": "Components\\Pages\\DeleteConfirmationDialog.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T04:16:18.638Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConfirmationModal.razor",
+              "DocumentMoniker": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Pages\\ConfirmationModal.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\ConfirmationModal.razor",
+              "ToolTip": "C:\\Users\\Karim\\Downloads\\EntityFramework\\DataAccessBlazorServerSide\\Components\\Pages\\ConfirmationModal.razor",
+              "RelativeToolTip": "Components\\Pages\\ConfirmationModal.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T04:02:15.258Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

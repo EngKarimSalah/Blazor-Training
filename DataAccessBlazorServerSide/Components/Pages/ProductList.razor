@@ -1,0 +1,121 @@
+﻿
+@page "/products"
+@inject IProductService ProductService
+@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
+@inject IDialogService DialogService
+
+<h3>Product List</h3>
+
+@if (products == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Actions</th> <!-- Add Actions column -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in products)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.Price</td>
+                    <td>@product.Description</td>
+                    <td>
+                        <!-- Edit Button -->
+                        <button class="btn btn-primary btn-sm" @onclick="() => EditProduct(product.Id)">Edit</button>
+
+                        <!-- Delete Button -->
+                        <button class="btn btn-danger btn-sm" @onclick="() => ShowDeleteConfirmation(product.Id)">Delete</button>
+
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <ConfirmationModal @ref="confirmationModal"
+                       Title="Delete Product"
+                       Message="Are you sure you want to delete this product?"
+                       OnConfirm="HandleConfirmation" />
+}
+
+@code {
+    private List<Product> products;
+
+    protected override void OnInitialized()
+    {
+        products = ProductService.GetAllProducts();
+    }
+
+    private void EditProduct(int id)
+    {
+        // Navigate to an Edit Product page with the product ID
+        Navigation.NavigateTo($"/EditProduct/{id}");
+    }
+
+    private async Task ConfirmDelete(int id)
+    {
+        bool confirmDelete = await JSRuntime.InvokeAsync<bool>("confirm", "Are you sure you want to delete this product?");
+        if (confirmDelete)
+        {
+            DeleteProduct(id);
+        }
+    }
+
+    private void DeleteProduct(int id)
+    {
+
+            ProductService.DeleteProduct(id);
+            products = ProductService.GetAllProducts(); // Refresh product list
+        
+    }
+
+
+
+
+    private int productIdToDelete;
+    private ConfirmationModal confirmationModal;
+
+    private void ShowDeleteConfirmation(int productId)
+    {
+        productIdToDelete = productId;
+        confirmationModal.Show();
+    }
+
+    private void HandleConfirmation(bool confirmed)
+    {
+        if (confirmed)
+        {
+            ProductService.DeleteProduct(productIdToDelete);
+            products = ProductService.GetAllProducts(); // Refresh product list
+        }
+    }
+
+
+
+    private async Task ShowDeleteDialogAsync(int productId)
+    {
+        var options = new DialogOptions { CloseOnEscapeKey = true };
+        var dialog = DialogService.Show<DeleteConfirmationDialog>("Confirm Delete", options);
+        var result = await dialog.Result;
+
+        if (!result.Canceled && (bool)result.Data)
+        {
+             ProductService.DeleteProduct(productId);
+            products =  ProductService.GetAllProducts(); // Refresh the product list
+        }
+    }
+
+}

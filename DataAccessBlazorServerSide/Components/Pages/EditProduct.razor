@@ -1,0 +1,79 @@
+﻿@page "/EditProduct/{id:int}"
+@inject IProductService ProductService
+@inject NavigationManager Navigation
+
+<h3>Edit Product</h3>
+
+@if (product == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <EditForm Model="editProduct" OnValidSubmit="SaveProduct">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label for="productName">Product Name</label>
+            <InputText id="productName" class="form-control" @bind-Value="editProduct.Name" />
+        </div>
+
+        <div class="mb-3">
+            <label for="productPrice">Price</label>
+            <InputNumber id="productPrice" class="form-control" @bind-Value="editProduct.Price" />
+        </div>
+
+        <div class="mb-3">
+            <label for="productDescription">Description</label>
+            <InputTextArea id="productDescription" class="form-control" @bind-Value="editProduct.Description" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    private Product product;
+    private Product editProduct;
+
+    protected override void OnInitialized()
+    {
+        product = ProductService.GetByID(id); // Load the original product
+        editProduct = new Product // Create a copy for editing
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Price = product.Price,
+                Description = product.Description
+            };
+    }
+
+    private void SaveProduct()
+    {
+        // Update the original product with the changes
+        product.Name = editProduct.Name;
+        product.Price = editProduct.Price;
+        product.Description = editProduct.Description;
+
+        ProductService.UpdateProduct(product);
+        Navigation.NavigateTo("/products");
+    }
+
+    private void Cancel()
+    {
+        // Discard changes by resetting the editProduct object
+        editProduct = new Product
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Price = product.Price,
+                Description = product.Description
+            };
+        Navigation.NavigateTo("/products");
+    }
+}
